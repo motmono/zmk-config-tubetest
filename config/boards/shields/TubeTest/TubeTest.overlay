@@ -15,9 +15,9 @@
                     <&blackpill 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
                     <&blackpill 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     
-        col-gpios = <&blackpill 4 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 5 GPIO_ACTIVE_HIGH>,
-                    <&blackpill 6 GPIO_ACTIVE_HIGH>;
+        col-gpios = <&blackpill 2 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 3 GPIO_ACTIVE_HIGH>,
+                    <&blackpill 4 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix_transform {
